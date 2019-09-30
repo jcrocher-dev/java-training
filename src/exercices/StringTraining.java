@@ -146,12 +146,9 @@ public class StringTraining {
      */
     public static String[] split(String string, String delimiter) {
         // https://howtodoinjava.com/java/string/java-string-split-example/
-	String[] partsArray = string.split("(?=-)");
-	String part1 = partsArray[0];
-	String part2 = partsArray[1];
-	System.out.println(part1 + part2);
+	String[] partsArray = string.split(delimiter);
 	
-        return null;
+        return partsArray;
     }
   /**
      * @param strings    array, eg: {"test", "value"}
