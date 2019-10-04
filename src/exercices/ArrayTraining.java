@@ -169,7 +169,7 @@ public class ArrayTraining {
 		concat[i] = first[i];
 	}
 	for(int i = 0; i< second.length; i++){
-		concat[i] = second[i+first.length];
+		concat[i+first.length] = second[i];
 	}
         return concat;
     } 
